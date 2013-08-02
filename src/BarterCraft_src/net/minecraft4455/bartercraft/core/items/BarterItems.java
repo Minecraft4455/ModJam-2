@@ -8,6 +8,7 @@ public class BarterItems {
 
 	public static Item BriefCase01;
 	public static Item BlueCupcake;
+	public static Item GhostlyLantern;
 	
 	public static void init() {
 		
@@ -16,6 +17,9 @@ public class BarterItems {
 		
 		BlueCupcake = new ItemBlueCupcake(BarterCraftConfig.BlueCupcakeID);
 		LanguageRegistry.addName(BlueCupcake, "BlueCupcake");
+		
+		GhostlyLantern = new ItemGhostlyLantern(BarterCraftConfig.GhostlyLanternID);
+		LanguageRegistry.addName(GhostlyLantern, "Ghostly Lantern");
 		
 	}
 	
