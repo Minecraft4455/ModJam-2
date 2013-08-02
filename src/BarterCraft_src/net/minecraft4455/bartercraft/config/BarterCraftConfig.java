@@ -23,6 +23,7 @@ public class BarterCraftConfig {
 	public static @CfgID int BriefCase01ID = 3000;
 	public static @CfgID int BlueCupcakeID = 9001;
 	public static @CfgID int GhostlyLanternID = 9002;
+	public static @CfgID int GillysBootsID = 9003;
 
 	public static void start(Configuration config) {
 

@@ -71,13 +71,13 @@ public class ItemBriefCase01 extends Item {
 			return new ItemStack(Item.diamond.itemID, 1, 0);
 
 		if (gm1 == 8)
-			return new ItemStack(Block.dirt.blockID, 1, 0);
+			return new ItemStack(BarterItems.GillysBoots.itemID, 1, 0);
 
 		if (gm1 == 9)
 			return new ItemStack(BarterItems.BlueCupcake.itemID, 1, 0);
 
 		if (gm1 == 10)
-			return new ItemStack(Item.appleGold.itemID, 1, 0);
+			return new ItemStack(BarterItems.GillysBoots.itemID, 1, 0);
 
 		if (gm1 == 11)
 			return new ItemStack(Item.diamond.itemID, 1, 0);

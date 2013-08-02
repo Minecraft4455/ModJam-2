@@ -1,6 +1,11 @@
 package net.minecraft4455.bartercraft.core.items;
 
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.potion.Potion;
+import net.minecraft.potion.PotionEffect;
+import net.minecraft.world.World;
 import net.minecraft4455.bartercraft.config.BarterCraftConfig;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
@@ -9,6 +14,7 @@ public class BarterItems {
 	public static Item BriefCase01;
 	public static Item BlueCupcake;
 	public static Item GhostlyLantern;
+	public static Item GillysBoots;
 	
 	public static void init() {
 		
@@ -20,6 +26,9 @@ public class BarterItems {
 		
 		GhostlyLantern = new ItemGhostlyLantern(BarterCraftConfig.GhostlyLanternID);
 		LanguageRegistry.addName(GhostlyLantern, "Ghostly Lantern");
+		
+		GillysBoots = new ItemGillysBoots(BarterCraftConfig.GillysBootsID);
+		LanguageRegistry.addName(GillysBoots, "Gillys Boots");
 		
 	}
 	
