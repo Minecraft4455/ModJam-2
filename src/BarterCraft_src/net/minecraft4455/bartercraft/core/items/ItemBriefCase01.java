@@ -26,8 +26,7 @@ public class ItemBriefCase01 extends Item {
 	}
 
 	@Override
-	public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World,
-			EntityPlayer par3EntityPlayer) {
+	public ItemStack onItemRightClick(ItemStack par1ItemStack, World par2World, EntityPlayer par3EntityPlayer) {
 
 		final int gm1 = rand.nextInt(20);
 
@@ -50,7 +49,7 @@ public class ItemBriefCase01 extends Item {
 			return new ItemStack(BarterItems.BlueCupcake.itemID, 1, 0);
 
 		if (gm1 == 1)
-			return new ItemStack(Item.appleGold.itemID, 1, 0);
+			return new ItemStack(BarterItems.HillarysHickup.itemID, 1, 0);
 
 		if (gm1 == 2)
 			return new ItemStack(Item.diamond.itemID, 1, 0);
@@ -92,13 +91,13 @@ public class ItemBriefCase01 extends Item {
 			return new ItemStack(BarterItems.BlueCupcake.itemID, 1, 0);
 
 		if (gm1 == 15)
-			return new ItemStack(Item.appleGold.itemID, 1, 0);
+			return new ItemStack(BarterItems.HillarysHickup.itemID, 1, 0);
 
 		if (gm1 == 16)
 			return new ItemStack(Item.diamond.itemID, 1, 0);
 
 		if (gm1 == 17)
-			return new ItemStack(Block.dirt.blockID, 1, 0);
+			return new ItemStack(BarterItems.HillarysHickup.itemID, 1, 0);
 
 		if (gm1 == 18)
 			return new ItemStack(BarterItems.BlueCupcake.itemID, 1, 0);

@@ -15,6 +15,7 @@ public class BarterItems {
 	public static Item BlueCupcake;
 	public static Item GhostlyLantern;
 	public static Item GillysBoots;
+	public static Item HillarysHickup;
 	
 	public static void init() {
 		
@@ -28,7 +29,10 @@ public class BarterItems {
 		LanguageRegistry.addName(GhostlyLantern, "Ghostly Lantern");
 		
 		GillysBoots = new ItemGillysBoots(BarterCraftConfig.GillysBootsID);
-		LanguageRegistry.addName(GillysBoots, "Gillys Boots");
+		LanguageRegistry.addName(GillysBoots, "Gilly's Boots");
+		
+		HillarysHickup = new ItemHillarysHickup(BarterCraftConfig.HillarysHickupID);
+		LanguageRegistry.addName(HillarysHickup, "Hillary's Hickup");
 		
 	}
 	
