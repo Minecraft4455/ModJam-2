@@ -19,6 +19,8 @@ public class BarterCraftConfig {
 		public boolean block() default false;
 
 	}
+	
+	public static @CfgID int BriefCase01ID = 3000;
 
 	public static void start(Configuration config) {
 
